@@ -1,0 +1,19 @@
+# 编译产物
+/webflow
+/dist/
+*.exe
+
+# 录制结果(可能包含 cookie / session 凭证,严禁提交)
+flow.json
+*.flow.json
+
+# 编辑器与系统
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Go
+*.test
+*.out
+coverage.txt
